@@ -390,6 +390,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document21]
+DocumentPath=switches.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DUTJCGMN
+
+[Document22]
 DocumentPath=AMP_BB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TCYEBVLV
 
-[Document22]
+[Document23]
 DocumentPath=switch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJFPCZPC
 
-[Document23]
+[Document24]
 DocumentPath=switch_amp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1469,7 +1486,7 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0

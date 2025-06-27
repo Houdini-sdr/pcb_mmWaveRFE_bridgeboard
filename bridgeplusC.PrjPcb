@@ -486,12 +486,8 @@ Variation2=Designator=R6|UniqueId=\FVFWWDVJ|Kind=1|AlternatePart=
 Variation3=Designator=R7|UniqueId=\AHJBANLV|Kind=1|AlternatePart=
 Variation4=Designator=R8|UniqueId=\TPOKQDGR|Kind=1|AlternatePart=
 Variation5=Designator=R9|UniqueId=\UMPLHLDU|Kind=1|AlternatePart=
-Variation6=Designator=C1|UniqueId=\ARKIEWXF|Kind=0|AlternatePart=0.1uF 
-ParamVariation1=ParameterName=Comment|VariantValue=0.1uF 
-ParamDesignator1=C1
-ParamVariation2=ParameterName=Part Number|VariantValue=GRT033R61E104KE01D  
-ParamDesignator2=C1
-ParamVariationCount=2
+Variation6=Designator=P1|UniqueId=\YEYOOHHV|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for bridgeplusC\Design Rule Check - BridgeC.html

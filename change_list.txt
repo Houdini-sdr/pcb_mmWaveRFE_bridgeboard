@@ -1,0 +1,7 @@
+Rev 3 Change List
+-Add RX amp
+-Add RF Switches to bypass amp (For tx function)
+-Increase board dimensions to accommodate amp and hole plating
+-Platted corner holes.  Connected top left to ground.  Extended 3 edges out 102mils to give clearance to mounting holes
+-Simplified silk screen
+-Changed parts to be simular series mfg

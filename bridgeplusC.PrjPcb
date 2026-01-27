@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Main
 
 [Preferences]
 PrefsVaultGUID=
@@ -149,7 +150,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XMFCBDKI
 
 [Document7]
 DocumentPath=LCR.SchLib
@@ -373,7 +374,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document20]
-DocumentPath=bridgeplusB.OutJob
+DocumentPath=HoudiniBridge.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -407,13 +408,13 @@ GenerateClassCluster=0
 DocumentUniqueId=TCYEBVLV
 
 [Document22]
-DocumentPath=switch.SchDoc
+DocumentPath=dualinv.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -421,7 +422,204 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FJFPCZPC
+DocumentUniqueId=RVELMQLP
+
+[Document23]
+DocumentPath=FullLib.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YGREAULV
+
+[Document24]
+DocumentPath=BridgeC.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PLUANKTN
+
+[Document25]
+DocumentPath=layersAndNumbers.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XDBPUGPA
+
+[ProjectVariant1]
+UniqueId=1d9b88c2-220b-4aa8-8e84-7d2ee59652a6
+Description=Main
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=R15|UniqueId=\FYJTWOFE|Kind=1|AlternatePart=
+Variation2=Designator=R6|UniqueId=\FVFWWDVJ|Kind=1|AlternatePart=
+Variation3=Designator=R7|UniqueId=\AHJBANLV|Kind=1|AlternatePart=
+Variation4=Designator=R8|UniqueId=\TPOKQDGR|Kind=1|AlternatePart=
+Variation5=Designator=R9|UniqueId=\UMPLHLDU|Kind=1|AlternatePart=
+Variation6=Designator=P1|UniqueId=\YEYOOHHV|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=release_files\Assembly\BOM\Bill of Materials-bridgeC(Main).xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=release_files\Fabrication\NC Drill\BridgeC-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=release_files\Fabrication\NC Drill\BridgeC-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=release_files\Fabrication\NC Drill\BridgeC.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=release_files\Fabrication\NC Drill\BridgeC.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=release_files\Fabrication\ODB\BridgeC.REP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=release_files\Fabrication\Report Board Stack\BridgeC.xls
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for bridgeplusC\Design Rule Check - BridgeC.html
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\dielectric_2\features
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\dielectric_3\features
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\gnd_plane\features
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\pwr_plane\features
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=release_files\Fabrication\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=release_files\Assembly\Pick Place\Pick Place for BridgeC(Main).txt
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=release_files\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -576,12 +774,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1250,7 +1458,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1446,6 +1654,222 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Connectors.SchLib
+ComponentDesignItemID0=901-10511-2
+ComponentSymbolReference0=901-10511-2
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=FullLib.SCHLIB
+ComponentDesignItemID1=CMP-01968-107855816-1
+ComponentSymbolReference1=CMP-01968-107855816-1
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=FullLib.SCHLIB
+ComponentDesignItemID2=CMP-04424-000432-1
+ComponentSymbolReference2=CMP-04424-000432-1
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=FullLib.SCHLIB
+ComponentDesignItemID3=CMP-04424-000629-1
+ComponentSymbolReference3=CMP-04424-000629-1
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=FullLib.SCHLIB
+ComponentDesignItemID4=CMP-04767-000004-1
+ComponentSymbolReference4=CMP-04767-000004-1
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=FullLib.SCHLIB
+ComponentDesignItemID5=CMP-04917-000312-1
+ComponentSymbolReference5=CMP-04917-000312-1
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=FullLib.SCHLIB
+ComponentDesignItemID6=CMP-06035-062385-2
+ComponentSymbolReference6=CMP-06035-062385-2
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=FullLib.SCHLIB
+ComponentDesignItemID7=CMP-06042-000668-1
+ComponentSymbolReference7=CMP-06042-000668-1
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=FullLib.SCHLIB
+ComponentDesignItemID8=CMP-06042-002147-1
+ComponentSymbolReference8=CMP-06042-002147-1
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=FullLib.SCHLIB
+ComponentDesignItemID9=CMP-1012-00590-3
+ComponentSymbolReference9=CMP-1012-00590-3
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=FullLib.SCHLIB
+ComponentDesignItemID10=CMP-13271-000010-1
+ComponentSymbolReference10=CMP-13271-000010-1
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=FullLib.SCHLIB
+ComponentDesignItemID11=CMP-1502-01059-3
+ComponentSymbolReference11=CMP-1502-01059-3
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=FullLib.SCHLIB
+ComponentDesignItemID12=CMP-199891-000002-1
+ComponentSymbolReference12=CMP-199891-000002-1
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=FullLib.SCHLIB
+ComponentDesignItemID13=CMP-2000-00703-2
+ComponentSymbolReference13=CMP-2000-00703-2
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=FullLib.SCHLIB
+ComponentDesignItemID14=CMP-2000-00746-2
+ComponentSymbolReference14=CMP-2000-00746-2
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=FullLib.SCHLIB
+ComponentDesignItemID15=CMP-2000-05021-2
+ComponentSymbolReference15=CMP-2000-05021-2
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=FullLib.SCHLIB
+ComponentDesignItemID16=CMP-2001-04168-2
+ComponentSymbolReference16=CMP-2001-04168-2
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=FullLib.SCHLIB
+ComponentDesignItemID17=CMP-2006-02836-2
+ComponentSymbolReference17=CMP-2006-02836-2
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=FullLib.SCHLIB
+ComponentDesignItemID18=CMP-2006-03022-3
+ComponentSymbolReference18=CMP-2006-03022-3
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=FullLib.SCHLIB
+ComponentDesignItemID19=CMP-2008-02109-2
+ComponentSymbolReference19=CMP-2008-02109-2
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=FullLib.SCHLIB
+ComponentDesignItemID20=CMP-2008-03797-2
+ComponentSymbolReference20=CMP-2008-03797-2
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=FullLib.SCHLIB
+ComponentDesignItemID21=CMP-2008-03915-1
+ComponentSymbolReference21=CMP-2008-03915-1
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=FullLib.SCHLIB
+ComponentDesignItemID22=CMP-2010-00245-1
+ComponentSymbolReference22=CMP-2010-00245-1
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=FullLib.SCHLIB
+ComponentDesignItemID23=CMP-2100-03664-2
+ComponentSymbolReference23=CMP-2100-03664-2
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=FullLib.SCHLIB
+ComponentDesignItemID24=CMP-22017-000005-2
+ComponentSymbolReference24=CMP-22017-000005-2
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=FullyDigital.SchLib
+ComponentDesignItemID25=74HC2G14
+ComponentSymbolReference25=74HC2G14
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=FullyDigital.SchLib
+ComponentDesignItemID26=EP2RKU+
+ComponentSymbolReference26=EP2RKU+
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=FullyDigital.SchLib
+ComponentDesignItemID27=EP4RKU+
+ComponentSymbolReference27=EP4RKU+
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=FullyDigital.SchLib
+ComponentDesignItemID28=HMC536LP2E
+ComponentSymbolReference28=HMC536LP2E
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=FullyDigital.SchLib
+ComponentDesignItemID29=HMC814LC3B
+ComponentSymbolReference29=HMC814LC3B
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=FullyDigital.SchLib
+ComponentDesignItemID30=HMC8191LC4
+ComponentSymbolReference30=HMC8191LC4
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=FullyDigital.SchLib
+ComponentDesignItemID31=PSA2-6+
+ComponentSymbolReference31=PSA2-6+
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=LCR.SchLib
+ComponentDesignItemID32=GCM1885C1H103JA16D
+ComponentSymbolReference32=GCM1885C1H103JA16D
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=LCR.SchLib
+ComponentDesignItemID33=GCM1885C1H242FA16J
+ComponentSymbolReference33=GCM1885C1H242FA16J
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=LCR.SchLib
+ComponentDesignItemID34=GCM188L81H104KA57D
+ComponentSymbolReference34=GCM188L81H104KA57D
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=LCR.SchLib
+ComponentDesignItemID35=TCCH-80+
+ComponentSymbolReference35=TCCH-80+
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1459,6 +1883,469 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Automotive
+ParameterUpdate0=1
+ParameterName1=Automotive Grade
+ParameterUpdate1=1
+ParameterName2=Capacitance
+ParameterUpdate2=1
+ParameterName3=Case Code (Imperial)
+ParameterUpdate3=1
+ParameterName4=Case Code (Metric)
+ParameterUpdate4=1
+ParameterName5=Case/Package
+ParameterUpdate5=1
+ParameterName6=Category
+ParameterUpdate6=1
+ParameterName7=Color
+ParameterUpdate7=1
+ParameterName8=Comment
+ParameterUpdate8=1
+ParameterName9=Component Kind
+ParameterUpdate9=1
+ParameterName10=ComponentLink2Description
+ParameterUpdate10=1
+ParameterName11=ComponentLink2URL
+ParameterUpdate11=1
+ParameterName12=Composition
+ParameterUpdate12=1
+ParameterName13=Conn Orientation
+ParameterUpdate13=1
+ParameterName14=Connector Type
+ParameterUpdate14=1
+ParameterName15=Construction
+ParameterUpdate15=1
+ParameterName16=Contact Material
+ParameterUpdate16=1
+ParameterName17=Contact Mating Length
+ParameterUpdate17=1
+ParameterName18=Contact Plating
+ParameterUpdate18=1
+ParameterName19=Contact Resistance
+ParameterUpdate19=1
+ParameterName20=Core Material
+ParameterUpdate20=1
+ParameterName21=Current
+ParameterUpdate21=1
+ParameterName22=Current Rating
+ParameterUpdate22=1
+ParameterName23=DC Current
+ParameterUpdate23=1
+ParameterName24=DC Resistance (DCR)
+ParameterUpdate24=1
+ParameterName25=Depth
+ParameterUpdate25=1
+ParameterName26=Description
+ParameterUpdate26=1
+ParameterName27=Device Class L1
+ParameterUpdate27=1
+ParameterName28=Device Class L2
+ParameterUpdate28=1
+ParameterName29=Device Class L3
+ParameterUpdate29=1
+ParameterName30=Dielectric
+ParameterUpdate30=1
+ParameterName31=Dielectric Material
+ParameterUpdate31=1
+ParameterName32=Digikey Description
+ParameterUpdate32=1
+ParameterName33=Dissipation Factor
+ParameterUpdate33=1
+ParameterName34=Dominant Wavelength
+ParameterUpdate34=1
+ParameterName35=ESR (Equivalent Series Resistance)
+ParameterUpdate35=1
+ParameterName36=Features
+ParameterUpdate36=1
+ParameterName37=Footprint Url
+ParameterUpdate37=1
+ParameterName38=Forward Current
+ParameterUpdate38=1
+ParameterName39=Forward Voltage
+ParameterUpdate39=1
+ParameterName40=Gender
+ParameterUpdate40=1
+ParameterName41=Height
+ParameterUpdate41=1
+ParameterName42=Height - Seated (Max)
+ParameterUpdate42=1
+ParameterName43=Illumination Color
+ParameterUpdate43=1
+ParameterName44=Inductance
+ParameterUpdate44=1
+ParameterName45=Inductance Tolerance
+ParameterUpdate45=1
+ParameterName46=Ipc Land Pattern Name
+ParameterUpdate46=1
+ParameterName47=Is Female
+ParameterUpdate47=1
+ParameterName48=Lead Free
+ParameterUpdate48=1
+ParameterName49=Lead Pitch
+ParameterUpdate49=1
+ParameterName50=Leakage Current
+ParameterUpdate50=1
+ParameterName51=Length
+ParameterUpdate51=1
+ParameterName52=Lens Color
+ParameterUpdate52=1
+ParameterName53=Lens Style
+ParameterUpdate53=1
+ParameterName54=Lens Transparency
+ParameterUpdate54=1
+ParameterName55=Library Reference
+ParameterUpdate55=1
+ParameterName56=Luminous Intensity
+ParameterUpdate56=1
+ParameterName57=Manufacturer
+ParameterUpdate57=1
+ParameterName58=Manufacturer Part Number
+ParameterUpdate58=1
+ParameterName59=Material
+ParameterUpdate59=1
+ParameterName60=Max DC Current
+ParameterUpdate60=1
+ParameterName61=Max Operating Temperature
+ParameterUpdate61=1
+ParameterName62=Max Power Dissipation
+ParameterUpdate62=1
+ParameterName63=Military Standard
+ParameterUpdate63=1
+ParameterName64=Min Operating Temperature
+ParameterUpdate64=1
+ParameterName65=Mount
+ParameterUpdate65=1
+ParameterName66=Mounting Type
+ParameterUpdate66=1
+ParameterName67=Mouser Description
+ParameterUpdate67=1
+ParameterName68=NexarPartId
+ParameterUpdate68=1
+ParameterName69=Number Of Contacts
+ParameterUpdate69=1
+ParameterName70=Number of Elements
+ParameterUpdate70=1
+ParameterName71=Number of LEDs
+ParameterUpdate71=1
+ParameterName72=Number of Pins
+ParameterUpdate72=1
+ParameterName73=Number of Positions
+ParameterUpdate73=1
+ParameterName74=Number of Rows
+ParameterUpdate74=1
+ParameterName75=Number of Terminations
+ParameterUpdate75=1
+ParameterName76=Operating Supply Voltage
+ParameterUpdate76=1
+ParameterName77=Package
+ParameterUpdate77=1
+ParameterName78=Package Quantity
+ParameterUpdate78=1
+ParameterName79=Packaging
+ParameterUpdate79=1
+ParameterName80=Part Number
+ParameterUpdate80=1
+ParameterName81=Pitch
+ParameterUpdate81=1
+ParameterName82=Polarity
+ParameterUpdate82=1
+ParameterName83=Power Dissipation
+ParameterUpdate83=1
+ParameterName84=Power Rating
+ParameterUpdate84=1
+ParameterName85=Q Factor
+ParameterUpdate85=1
+ParameterName86=Radiation Hardening
+ParameterUpdate86=1
+ParameterName87=REACH SVHC
+ParameterUpdate87=1
+ParameterName88=RefDes
+ParameterUpdate88=1
+ParameterName89=Resistance
+ParameterUpdate89=1
+ParameterName90=Resistance Tolerance
+ParameterUpdate90=1
+ParameterName91=Resistor Type
+ParameterUpdate91=1
+ParameterName92=Reverse Voltage
+ParameterUpdate92=1
+ParameterName93=RoHS
+ParameterUpdate93=1
+ParameterName94=RoHS Compliant
+ParameterUpdate94=1
+ParameterName95=Self Resonant Frequency
+ParameterUpdate95=1
+ParameterName96=Series
+ParameterUpdate96=1
+ParameterName97=Shielding
+ParameterUpdate97=1
+ParameterName98=Size Code
+ParameterUpdate98=1
+ParameterName99=Supplier 1
+ParameterUpdate99=1
+ParameterName100=Supplier Part Number 1
+ParameterUpdate100=1
+ParameterName101=Technology
+ParameterUpdate101=1
+ParameterName102=Temperature
+ParameterUpdate102=1
+ParameterName103=Temperature Characteristic
+ParameterUpdate103=1
+ParameterName104=Temperature Coefficient
+ParameterUpdate104=1
+ParameterName105=Temperature Range High
+ParameterUpdate105=1
+ParameterName106=Temperature Range Low
+ParameterUpdate106=1
+ParameterName107=Termination
+ParameterUpdate107=1
+ParameterName108=Test Current
+ParameterUpdate108=1
+ParameterName109=Test Frequency
+ParameterUpdate109=1
+ParameterName110=Thickness
+ParameterUpdate110=1
+ParameterName111=Tolerance
+ParameterUpdate111=1
+ParameterName112=Usb Standard
+ParameterUpdate112=1
+ParameterName113=Value
+ParameterUpdate113=1
+ParameterName114=Viewing Angle
+ParameterUpdate114=1
+ParameterName115=Voltage
+ParameterUpdate115=1
+ParameterName116=Voltage Rating
+ParameterUpdate116=1
+ParameterName117=Voltage Rating (DC)
+ParameterUpdate117=1
+ParameterName118=Wavelength
+ParameterUpdate118=1
+ParameterName119=Weight
+ParameterUpdate119=1
+ParameterName120=Width
+ParameterUpdate120=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=61300211021
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=AMPHENOL_901-10511-2
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP0603_10000pF
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAPC0603X33X15LL03T05
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CAPC0603X33X15ML03T05
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=CAPC0603X33X15NL03T05
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=CAPC1005X55X25LL05T10
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=CAPC1005X55X25ML05T10
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=CAPC1005X55X25NL05T10
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=CAPC1608X90N
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=EP2RKU+
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=EP4RKU+
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=FP-1054500101-MFG
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=FP-C0402-BB-IPC_A
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=FP-C0402-BB-IPC_B
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=FP-C0402-BB-IPC_C
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=FP-C0402-BB-MFG
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=FP-C0603C-CF-IPC_A
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=FP-C0603C-CF-IPC_B
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=FP-C0603C-CF-IPC_C
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=FP-C0603C-CF-MFG
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=FP-CL05-IPC_A
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=FP-CL05-IPC_B
+ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=FP-CL05-IPC_C
+ModelUpdate23=1
+ModelType24=PCBLIB
+ModelName24=FP-CL05-MFG
+ModelUpdate24=1
+ModelType25=PCBLIB
+ModelName25=FP-CRCW0603-e3-IPC_A
+ModelUpdate25=1
+ModelType26=PCBLIB
+ModelName26=FP-CRCW0603-e3-IPC_B
+ModelUpdate26=1
+ModelType27=PCBLIB
+ModelName27=FP-CRCW0603-e3-IPC_C
+ModelUpdate27=1
+ModelType28=PCBLIB
+ModelName28=FP-CRCW0603-e3-MFG
+ModelUpdate28=1
+ModelType29=PCBLIB
+ModelName29=FP-CRCW0805-e3-IPC_A
+ModelUpdate29=1
+ModelType30=PCBLIB
+ModelName30=FP-CRCW0805-e3-IPC_B
+ModelUpdate30=1
+ModelType31=PCBLIB
+ModelName31=FP-CRCW0805-e3-IPC_C
+ModelUpdate31=1
+ModelType32=PCBLIB
+ModelName32=FP-CRCW0805-e3-MFG
+ModelUpdate32=1
+ModelType33=PCBLIB
+ModelName33=FP-DQ1225-IPC_A
+ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=FP-DQ1225-IPC_B
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=FP-DQ1225-IPC_C
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=FP-DQ1225-MFG
+ModelUpdate36=1
+ModelType37=PCBLIB
+ModelName37=FP-DRV0006A-IPC_A
+ModelUpdate37=1
+ModelType38=PCBLIB
+ModelName38=FP-DRV0006A-IPC_B
+ModelUpdate38=1
+ModelType39=PCBLIB
+ModelName39=FP-DRV0006A-IPC_C
+ModelUpdate39=1
+ModelType40=PCBLIB
+ModelName40=FP-DRV0006A-MFG
+ModelUpdate40=1
+ModelType41=PCBLIB
+ModelName41=FP-ERJ3G-IPC_A
+ModelUpdate41=1
+ModelType42=PCBLIB
+ModelName42=FP-ERJ3G-IPC_B
+ModelUpdate42=1
+ModelType43=PCBLIB
+ModelName43=FP-ERJ3G-IPC_C
+ModelUpdate43=1
+ModelType44=PCBLIB
+ModelName44=FP-ERJ3G-MFG
+ModelUpdate44=1
+ModelType45=PCBLIB
+ModelName45=FP-GJM155-0_05-IPC_A
+ModelUpdate45=1
+ModelType46=PCBLIB
+ModelName46=FP-GJM155-0_05-IPC_B
+ModelUpdate46=1
+ModelType47=PCBLIB
+ModelName47=FP-GJM155-0_05-IPC_C
+ModelUpdate47=1
+ModelType48=PCBLIB
+ModelName48=FP-GJM155-0_05-MFG
+ModelUpdate48=1
+ModelType49=PCBLIB
+ModelName49=FP-GRM188-0_1-e0_2_0_5-IPC_A
+ModelUpdate49=1
+ModelType50=PCBLIB
+ModelName50=FP-GRM188-0_1-e0_2_0_5-IPC_B
+ModelUpdate50=1
+ModelType51=PCBLIB
+ModelName51=FP-GRM188-0_1-e0_2_0_5-IPC_C
+ModelUpdate51=1
+ModelType52=PCBLIB
+ModelName52=FP-GRM188-0_1-e0_2_0_5-MFG
+ModelUpdate52=1
+ModelType53=PCBLIB
+ModelName53=FP-GU1414-MFG
+ModelUpdate53=1
+ModelType54=PCBLIB
+ModelName54=FP-LQG15HH_02-IPC_A
+ModelUpdate54=1
+ModelType55=PCBLIB
+ModelName55=FP-LQG15HH_02-IPC_B
+ModelUpdate55=1
+ModelType56=PCBLIB
+ModelName56=FP-LQG15HH_02-IPC_C
+ModelUpdate56=1
+ModelType57=PCBLIB
+ModelName57=FP-LQG15HH_02-MFG
+ModelUpdate57=1
+ModelType58=PCBLIB
+ModelName58=FP-LQW15AN_00-W0_5-0_1-MFG
+ModelUpdate58=1
+ModelType59=PCBLIB
+ModelName59=FP-LTST-C190GKT-MFG
+ModelUpdate59=1
+ModelType60=PCBLIB
+ModelName60=FP-RC0603-0_55-IPC_A
+ModelUpdate60=1
+ModelType61=PCBLIB
+ModelName61=FP-RC0603-0_55-IPC_B
+ModelUpdate61=1
+ModelType62=PCBLIB
+ModelName62=FP-RC0603-0_55-IPC_C
+ModelUpdate62=1
+ModelType63=PCBLIB
+ModelName63=FP-RC0603-0_55-MFG
+ModelUpdate63=1
+ModelType64=PCBLIB
+ModelName64=FP-TAJA-MFG
+ModelUpdate64=1
+ModelType65=PCBLIB
+ModelName65=FP-TAJB-MFG
+ModelUpdate65=1
+ModelType66=PCBLIB
+ModelName66=FP-ZRB18AR61E106ME01L-MFG
+ModelUpdate66=1
+ModelType67=PCBLIB
+ModelName67=HCP_12_1
+ModelUpdate67=1
+ModelType68=PCBLIB
+ModelName68=HMC536LP2E
+ModelUpdate68=1
+ModelType69=PCBLIB
+ModelName69=HMC8191_E-24-1
+ModelUpdate69=1
+ModelType70=PCBLIB
+ModelName70=PSA2-6+ SOT-363
+ModelUpdate70=1
+ModelType71=PCBLIB
+ModelName71=TCCH-80+
+ModelUpdate71=1
+ModelType72=PCBLIB
+ModelName72=TSOP-6
+ModelUpdate72=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

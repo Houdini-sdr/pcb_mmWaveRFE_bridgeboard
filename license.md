@@ -20,7 +20,7 @@ are met:
  3. Any use of the Software or the underlying hardware platform which results 
     in an academic publication or other publication which includes a 
     bibliography must cite Houdini project references found here: 
-    "https://houdini-sdr.org/renew_citations.bib"
+    "https://houdini-sdr.org/houdini_citations.bib"
 
  4. Except as required to comply with condition 3 above, the names of the 
     software's authors or their organizations may not be used to endorse or 
